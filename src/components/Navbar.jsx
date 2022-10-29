@@ -3,7 +3,11 @@ import React from "react";
 function Navbar(props) {
   return (
     <nav className={props.darkMode ? "dark" : ""}>
-      <img className="nav--logo_icon" src="./assets/react.svg" alt="" />
+      <img
+        className="nav--logo_icon"
+        src="./assets/react-icon-small.png"
+        alt=""
+      />
       <h3 className="nav--logo_text"> React Facts</h3>
       <div className="toggler">
         <p className="toggler--light">Ligth</p>
