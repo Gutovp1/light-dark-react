@@ -39,6 +39,7 @@ nav.dark {
 }
 
 .nav--logo_icon {
+  /* background-image: url("./assets/react-icon-small.png"); */
   width: 30px;
   margin-right: 10px;
 }
